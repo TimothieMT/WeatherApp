@@ -1,1 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
 
+.App {
+
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background-color: #131630;
+  height: 100vh;
+  padding: 20% 0 0 0;
+
+
+  .wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    height: auto;
+    background-color: #0D0F1B;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .title{
+    align-self: start;
+  }
+
+  .timeStamp {
+    font-weight: 100;
+  }
+
+  .currentTemp {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .location {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .locBtn{
+    color: #008DF9;
+  }
+
+  .symbol{
+    color: #0080DE;
+  }
+
+  input {
+    margin: 50px;
+    text-align: center;
+    height: 50px;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    color: black;
+  }
+
+  button {
+    margin: 0 0 30px 0;
+    background-color: #008DF9;
+    height: 50px;
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    font-weight: 100;
+    color: white;
+  }
+
+  p{
+    padding: 8px;
+  }
+
+  img{
+    padding: 10px;
+  }
+
+  h1{
+    color: white;
+  }
+
+  .sunUp{
+    color: yellow !important;
+    font-size: 25px;
+  }
+
+  .sunDown{
+    color: orange;
+    font-size: 25px;
+  }
+
+  .wind{
+    color: #008DF9;
+    font-size: 25px;
+  }
+
+  .pin{
+    color: #008DF9;
+    font-size: 25px;
+  }
+
+  .locLabel{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+  }
+
+  .inputLabel{
+    width: 80%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+}
